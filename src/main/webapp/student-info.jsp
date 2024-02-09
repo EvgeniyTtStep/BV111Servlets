@@ -1,3 +1,4 @@
+
 <%--
   Created by IntelliJ IDEA.
   User: Evgeniy
@@ -8,9 +9,9 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%--<%@ page import="com.example.bv111servlets.lesson2.Student" %>--%>
-<%--<jsp:useBean id="student" scope="request" type="com.example.bv111servlets.lesson2.Student"/>--%>
-<jsp:useBean id="checks" scope="request" type="java.util.List"/>
-
+<jsp:useBean id="student" scope="request" type="com.example.bv111servlets.lesson2.Student"/>
+<%--<jsp:useBean id="checks" scope="request" type="java.util.List"/>--%>
+<jsp:useBean id="radio" scope="request" type="java.lang.String"/>
 
 <html>
 <head>
@@ -35,12 +36,16 @@
 
 <div>
 
-    <c:forEach items="${checks}" var="check">
+    <c:forEach items="${student.languages}" var="check">
         <tr>
             <td>${check}</td>
         </tr>
     </c:forEach>
 
+</div>
+
+<div>
+    Gender:${radio}
 </div>
 
 

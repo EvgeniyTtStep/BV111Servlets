@@ -18,7 +18,8 @@
 
 
 
+    <error-page>
+        <exception-type>java.lang.ArithmeticException</exception-type>
+        <location>/errorServlet</location>
+    </error-page>
 </web-app>
-
-
-

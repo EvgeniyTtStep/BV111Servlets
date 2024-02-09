@@ -17,6 +17,11 @@ public class MyServlet extends HttpServlet {
 
         resp.setContentType("text/html");
 
+        if (true) {
+            throw new ArithmeticException();
+        }
+
+
         String name = req.getParameter("name");
         String surname = req.getParameter("surname");
         String age = req.getParameter("age");
