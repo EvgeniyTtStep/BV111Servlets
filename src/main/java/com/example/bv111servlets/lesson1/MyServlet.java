@@ -1,4 +1,4 @@
-package com.example.bv111servlets;
+package com.example.bv111servlets.lesson1;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;

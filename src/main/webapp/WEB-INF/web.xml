@@ -5,7 +5,7 @@
 
     <servlet>
         <servlet-name>MyServlet</servlet-name>
-        <servlet-class>com.example.bv111servlets.MyServlet</servlet-class>
+        <servlet-class>com.example.bv111servlets.lesson1.MyServlet</servlet-class>
     </servlet>
 
     <servlet-mapping>
@@ -13,4 +13,9 @@
         <url-pattern>/home</url-pattern>
     </servlet-mapping>
 
+
+
 </web-app>
+
+
+

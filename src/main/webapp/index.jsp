@@ -10,5 +10,6 @@
 <br/>
 <a href="hello-servlet">Hello Servlet</a> <br>
 <a href="car-form.html">Car form</a> <br>
+<a href="student-form.html">Student form</a> <br>
 </body>
 </html>
